@@ -30,7 +30,7 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-   &kp GRAVE &kp Q      &kp W 	   &kp E 	   &kp R 	   &kp T    &kp Y &kp U       &kp I       &kp O        &kp P         &kp BSLH
+   &kp GRAVE &kp Q      &kp W 	   &kp E 	   &kp R       &kp T    &kp Y &kp U       &kp I       &kp O        &kp P         &kp BSLH
    &kp MINUS &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G    &kp H &mt LSHFT J &mt LCTRL K &mt LALT L   &mt LGUI SQT  &kp SEMI
    &kp LPAR  &kp Z      &mt RALT X &kp C       &kp V       &kp B    &kp N &kp M       &kp COMMA   &mt RALT DOT &kp FSLH      &kp RPAR
             	       &mt MEDIA ESC &mt NAV SPACE &mt MOUSE TAB    &mt SYMBOL RET &mt NUMBER BSPC &mt FUNCTION DEL

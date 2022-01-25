@@ -30,7 +30,7 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-   &kp GRAVE &kp Q      &kp W 	   &kp E 	   &kp R       &kp T    &kp Y &kp U       &kp I       &kp O        &kp P         &kp BSLH
+   &kp GRAVE &kp Q      &kp W 	   &kp E       &kp R       &kp T    &kp Y &kp U       &kp I       &kp O        &kp P         &kp BSLH
    &kp MINUS &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G    &kp H &mt LSHFT J &mt LCTRL K &mt LALT L   &mt LGUI SQT  &kp SEMI
    &kp LPAR  &kp Z      &mt RALT X &kp C       &kp V       &kp B    &kp N &kp M       &kp COMMA   &mt RALT DOT &kp FSLH      &kp RPAR
             	       &mt MEDIA ESC &mt NAV SPACE &mt MOUSE TAB    &mt SYMBOL RET &mt NUMBER BSPC &mt FUNCTION DEL
@@ -43,7 +43,7 @@
    &none &none    &none    &none     &none     &none    &kp LC(LS(Z)) &kp LS(INS) &kp LC(INS) &kp LS(DEL) &kp LG(Z) &none
    &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none    &kp CAPS      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT &none
    &none &none    &kp RALT &none     &none     &none    &kp INS       &kp HOME    &kp PG_DN   &kp PG_UP   &kp END   &none
-                                   &none &none &none    &kp RET &kp BSPC &kp DEL
+                                   &none &none &reset   &kp RET &kp BSPC &kp DEL
                         >;
                 };
 
